@@ -16,12 +16,11 @@ import re
 
 setup(
     name="Easyxp",
-    version = '0.1.0',
+    version = '0.0.1',
     packages=find_packages(),
     install_requires=[
         "matplotlib>=3.4",
         "numpy>=1.21",
-        "python>=3.8.20"
     ],
     author="Xianpu JI",
     author_email="xianpuji@hhu.edu.cn",

@@ -28,4 +28,4 @@ Example
 
 from Easyxp import simple_quiver_legend
 
-__version__ = '0.1.0'
+__version__ = '0.0.1'
