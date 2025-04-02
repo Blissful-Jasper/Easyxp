@@ -1,10 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on %(date)s
 
-## example:
+@author: %(username)s
+
+@email : xianpuji@hhu.edu.cn
+"""
 
 
-
-
-```python
 import matplotlib.pyplot as plt
 import numpy as np
 from pysimple import simple_quiver_legend
@@ -30,6 +33,3 @@ simple_quiver_legend(
 )
 
 plt.show()
-```
-
-![](./quiver.png)
