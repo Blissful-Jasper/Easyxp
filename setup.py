@@ -23,7 +23,7 @@ setup(
     description="Simple add quiver legend toolkit for matplotlib",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pyquiverleg",
+    url="https://github.com/Blissful-Jasper/pysimple",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
