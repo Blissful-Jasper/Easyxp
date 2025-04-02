@@ -7,11 +7,16 @@ Created on %(date)s
 @email : xianpuji@hhu.edu.cn
 """
 
-from setuptools import setup, find_packages
+from setuptools import  find_packages, setup
+import os
+import sys
+import re
+
+
 
 setup(
-    name="pysimple",
-    version="0.1.0",
+    name="Easyxp",
+    version = '0.1.0',
     packages=find_packages(),
     install_requires=[
         "matplotlib>=3.4",
@@ -29,4 +34,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    include_package_data = True,
 )

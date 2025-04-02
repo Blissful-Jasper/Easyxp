@@ -10,7 +10,7 @@ Created on %(date)s
 
 import matplotlib.pyplot as plt
 import numpy as np
-from pysimple import simple_quiver_legend
+from Easyxp import simple_quiver_legend
 
 # 创建示例数据
 x = np.linspace(0, 2*np.pi, 10)
