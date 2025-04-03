@@ -1,14 +1,10 @@
-# -*- coding: utf-8 -*-
+
 """
-Created on %(date)s
-
-@author: %(username)s
-
 @email : xianpuji@hhu.edu.cn
 """
 
 """
-pysimple - A lightweight Python library for creating quiver plot legends
+Easyxp - A lightweight Python library for creating quiver plot legends
 """
 
 
