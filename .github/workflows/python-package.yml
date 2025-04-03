@@ -19,7 +19,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install .
-
+          
+      - name: Debug Python Path
+            python -c "import sys; print(sys.path)"
       - name: Check Installation
         run: python -c "import Easyxp"
 
