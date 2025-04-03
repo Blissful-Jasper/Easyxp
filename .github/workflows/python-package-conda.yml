@@ -19,8 +19,8 @@ jobs:
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Check environment.yml existence
-       run:|
-           ls -l environment.yml
+      run: |
+        test -f environment.yml && ls -l environment.yml || echo "environment.yml not found!"
     - name: Install dependencies
       run: |
         conda env update --file environment.yml --name base
