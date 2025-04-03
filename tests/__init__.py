@@ -26,6 +26,6 @@ Example
 >>> plt.show()
 """
 
-from Easyxp import simple_quiver_legend
+from .Easyxp import simple_quiver_legend
 
 __version__ = '0.0.1'
