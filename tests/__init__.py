@@ -1,6 +1,6 @@
 
 """
-pysimple: A package for creating legends for quiver plots
+Easyxp: A package for creating legends for quiver plots
 ==================================================================
 
 Features
