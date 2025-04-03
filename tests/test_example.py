@@ -1,7 +1,7 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from Easyxp import simple_quiver_legend
+from .Easyxp import simple_quiver_legend
 
 
 x = np.linspace(0, 2*np.pi, 10)
