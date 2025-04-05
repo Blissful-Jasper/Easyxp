@@ -53,8 +53,6 @@ pyproj==3.3.0
 pyshp==2.3.1
 PySocks==1.7.1
 python-dateutil==2.9.0
-pytz==2024.2
-pywin32==306
 pyzmq==26.2.0
 regionmask==0.11.0
 requests==2.32.3
@@ -63,7 +61,6 @@ setuptools==75.3.0
 Shapely==1.8.0
 six==1.16.0
 stack-data==0.6.2
-tensorflow-gpu==2.10.0
 tornado==6.4.1
 traitlets==5.14.3
 typing_extensions==4.12.2
