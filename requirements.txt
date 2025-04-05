@@ -53,7 +53,6 @@ pyshp==2.3.1
 PySocks==1.7.1
 python-dateutil==2.9.0
 pytz==2024.2
-pywin32==307
 pyzmq==26.2.0
 requests==2.32.3
 scipy==1.15.2
