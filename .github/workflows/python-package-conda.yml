@@ -7,17 +7,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
     - name: Set up Conda environment with Mamba
       uses: conda-incubator/setup-miniconda@v2
       with:
         miniforge-variant: Mambaforge
+        miniforge-version: 23.11.0-0  
         use-mamba: true
         environment-file: environment.yml
-        python-version: 3.10
-        auto-activate-base: false
         activate-environment: easyxp-env
+        auto-activate-base: false
 
     - name: Run tests with pytest
       run: |
