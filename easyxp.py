@@ -4,7 +4,7 @@
 """
 
 """
-Easyxp - A lightweight Python library for creating quiver plot legends
+easyxp - A lightweight Python library for creating quiver plot legends
 """
 
 
