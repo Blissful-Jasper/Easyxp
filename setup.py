@@ -6,7 +6,7 @@ readme_path = "README.md"
 long_description = open(readme_path).read() if os.path.exists(readme_path) else ""
 
 setup(
-    name="Easyxp",
+    name="easyxp",
     version="0.0.1",
     packages=find_packages(),
     install_requires=[
