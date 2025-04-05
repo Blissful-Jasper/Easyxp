@@ -1,0 +1,5 @@
+name: '[env_name]'
+channels:
+  - conda-forge
+  - defaults
+prefix: D:\anaconda\ANACONDA\envs\[env_name]
