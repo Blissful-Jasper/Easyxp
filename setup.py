@@ -7,7 +7,7 @@ long_description = open(readme_path).read() if os.path.exists(readme_path) else 
 
 setup(
     name="easyxp",
-    version="0.0.1",
+    version="0.1.0",
     packages=find_packages(),
     install_requires=[
         "matplotlib>=3.4",
